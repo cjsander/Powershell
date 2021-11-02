@@ -1,0 +1,26 @@
+# initial directory setup
+git init <project_dir>
+git config --global user.name "Alec Clews"
+git config user.email fred@gmail.com
+
+
+git clone https://github.com/thomasrayner/git-demo.git
+
+git fetch
+
+git pull
+
+git checkout -b new-branch
+
+# or if you wanted to move from a branch you created back to the master branch
+git checkout master
+
+git status
+
+git add -A
+git add .
+
+git commit -m "Added readme.md"
+
+git push
+
