@@ -1,0 +1,8 @@
+ $currentTime = Get-Date -format "dd-MMM-yyyy HH:mm:ss"
+ $currentDate = Get-Date -format "yyy-MMM-dd"
+ $path =  "C:\Temp\Logs\log_ps_$currentDate.txt"
+
+ Start-Transcript -Path $path -Append
+ Write-Output "START: "$currentTime
+
+ # Stop-Transcript
